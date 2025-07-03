@@ -1,27 +1,617 @@
 [
-  {
-    "id": 0,
-    "message_to_send": "tôi bị đau mắt",
-    "expected_reply": "Trường hợp của bạn, vui lòng gọi tới Hotline: 0269 365 666 hoặc tới trực tiếp Bệnh viện Mắt Quốc Tế Sài Gòn - Gia Lai, địa chỉ: 126 Wừu, P. Iarking, Tp. Pleiku, Gia Lai để được khám và tư vấn cụ thể."
-  },
-  {
-    "id": 1,  
-    "message_to_send": "chào",
-    "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
-  },
-  {
-    "id": 2,
-    "message_to_send": "địa chỉ bệnh viện",
-    "expected_reply": "BỆNH VIỆN MẮT QUỐC TẾ SÀI GÒN - GIA LAI (Bệnh viện chuyên khoa Mắt hàng đầu khu vực) 📍 126 Đường Wừu - Tp. Pleiku - Gia Lai 📞 0269 3656 666 📲 Hotline: 0946 603 168"
-  },
-  {
-    "id": 3,
-    "message_to_send": "giờ làm việc",
-    "expected_reply": "Giờ làm việc: (Từ thứ 2 - Chủ Nhật) - Buổi sáng: 7h30 - 12h - Buổi chiều: 13h -16h30"
-  },
-  {
-    "id": 4,
-    "message_to_send": "Khám mắt định kỳ",
-    "expected_reply": "Dịch vụ khám mắt định kỳ giúp quý khách tiếp cận sớm việc đánh giá tình trạng mắt và phát hiện các dấu hiệu bất thường. Quy trình khám ban đầu bao gồm đo thị lực, kiểm tra các triệu chứng liên quan và tư vấn sơ bộ từ đội ngũ bác sĩ chuyên khoa, giúp đưa ra các khuyến nghị điều trị hoặc theo dõi phù hợp."
-  }
-] 
+    {
+      "id": 0,
+      "message_to_send": "hohoho",
+      "expected_reply": "Chào bạn, bạn vui lòng gọi đến hotline: 0329 340 511 & 0348 551 119 hoặc đến trực tiếp phòng khám để được tư vấn nhanh nhất ạ."
+    },
+    {
+      "id": 1,
+      "message_to_send": "tư vấn",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 2,
+      "message_to_send": "chào",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 3,
+      "message_to_send": "hỗ trợ",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 4,
+      "message_to_send": "xin chào",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 5,
+      "message_to_send": "bác sỹ",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 6,
+      "message_to_send": "bác sĩ ơi",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 7,
+      "message_to_send": "ơi",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 8,
+      "message_to_send": "chat",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 9,
+      "message_to_send": "online",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 10,
+      "message_to_send": "alo",
+      "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+    },
+    {
+      "id": 11,
+      "message_to_send": "địa chỉ phòng khám",
+      "expected_reply": "🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119\n⏰ Giờ làm việc (Từ thứ 2 đến Chủ Nhật):\n- Sáng: 7h30 - 12h\n- Chiều: 13h - 16h30\n\nPhòng Khám Đa Khoa Sysmed Phù Đổng luôn hết lòng vì người bệnh!"
+    },
+    {
+      "id": 12,
+      "message_to_send": "địa chỉ bệnh viện",
+      "expected_reply": "🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119\n⏰ Giờ làm việc (Từ thứ 2 đến Chủ Nhật):\n- Sáng: 7h30 - 12h\n- Chiều: 13h - 16h30\n\nPhòng Khám Đa Khoa Sysmed Phù Đổng luôn hết lòng vì người bệnh!"
+    },
+    {
+      "id": 13,
+      "message_to_send": "thông tin bệnh viện",
+      "expected_reply": "🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119\n⏰ Giờ làm việc (Từ thứ 2 đến Chủ Nhật):\n- Sáng: 7h30 - 12h\n- Chiều: 13h - 16h30\n\nPhòng Khám Đa Khoa Sysmed Phù Đổng luôn hết lòng vì người bệnh!"
+    },
+    {
+      "id": 14,
+      "message_to_send": "thông tin phòng khám",
+      "expected_reply": "🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119\n⏰ Giờ làm việc (Từ thứ 2 đến Chủ Nhật):\n- Sáng: 7h30 - 12h\n- Chiều: 13h - 16h30\n\nPhòng Khám Đa Khoa Sysmed Phù Đổng luôn hết lòng vì người bệnh!"
+    },
+    {
+      "id": 15,
+      "message_to_send": "vị trí bệnh viện",
+      "expected_reply": "🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119\n⏰ Giờ làm việc (Từ thứ 2 đến Chủ Nhật):\n- Sáng: 7h30 - 12h\n- Chiều: 13h - 16h30\n\nPhòng Khám Đa Khoa Sysmed Phù Đổng luôn hết lòng vì người bệnh!"
+    },
+    {
+      "id": 16,
+      "message_to_send": "vị trí phòng khám",
+      "expected_reply": "🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119\n⏰ Giờ làm việc (Từ thứ 2 đến Chủ Nhật):\n- Sáng: 7h30 - 12h\n- Chiều: 13h - 16h30\n\nPhòng Khám Đa Khoa Sysmed Phù Đổng luôn hết lòng vì người bệnh!"
+    },
+    {
+      "id": 17,
+      "message_to_send": "giờ làm việc",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp bệnh viện trong Giờ làm việc: \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 18,
+      "message_to_send": "giờ mở cửa",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp bệnh viện trong Giờ làm việc: \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 19,
+      "message_to_send": "khung giờ",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp bệnh viện trong Giờ làm việc: \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 20,
+      "message_to_send": "khung giờ mở cửa",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp bệnh viện trong Giờ làm việc: \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 21,
+      "message_to_send": "thời gian làm việc",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp bệnh viện trong Giờ làm việc: \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 22,
+      "message_to_send": "giờ khám",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp bệnh viện trong Giờ làm việc: \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 23,
+      "message_to_send": "khám cuối tuần",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 24,
+      "message_to_send": "khám thứ 7",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 25,
+      "message_to_send": "khám t7",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 26,
+      "message_to_send": "khám chủ nhật",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 27,
+      "message_to_send": "khám cn",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 28,
+      "message_to_send": "khám ngoài giờ",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 29,
+      "message_to_send": "khám tới mấy giờ",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 30,
+      "message_to_send": "khám bảo hiểm/bảo hiểm y tế/bhyt tới mấy giờ",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 31,
+      "message_to_send": "hẹn lịch khám",
+      "expected_reply": "Admin đã đăng ký cho bạn, bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 32,
+      "message_to_send": "lên lịch khám",
+      "expected_reply": "Admin đã đăng ký cho bạn, bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 33,
+      "message_to_send": "đặt lịch khám",
+      "expected_reply": "Admin đã đăng ký cho bạn, bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 34,
+      "message_to_send": "lịch hẹn",
+      "expected_reply": "Admin đã đăng ký cho bạn, bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 35,
+      "message_to_send": "đăng ký",
+      "expected_reply": "Admin đã đăng ký cho bạn, bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 36,
+      "message_to_send": "đăng kí",
+      "expected_reply": "Admin đã đăng ký cho bạn, bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 37,
+      "message_to_send": "bóc số",
+      "expected_reply": "Chào bạn, khám hoặc điều trị tại Phòng khám Đa Khoa Sysmed không cần đặt lịch hẹn trước ạ. \nThủ tục khám và điều trị tại Phòng khám nhanh chóng và gọn gàng, khách hàng sẽ không cần phải đợi lâu ạ.\nBạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 38,
+      "message_to_send": "bốc số",
+      "expected_reply": "Chào bạn, khám hoặc điều trị tại Phòng khám Đa Khoa Sysmed không cần đặt lịch hẹn trước ạ. \nThủ tục khám và điều trị tại Phòng khám nhanh chóng và gọn gàng, khách hàng sẽ không cần phải đợi lâu ạ.\nBạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 39,
+      "message_to_send": "đặt lịch",
+      "expected_reply": "Chào bạn, khám hoặc điều trị tại Phòng khám Đa Khoa Sysmed không cần đặt lịch hẹn trước ạ. \nThủ tục khám và điều trị tại Phòng khám nhanh chóng và gọn gàng, khách hàng sẽ không cần phải đợi lâu ạ.\nBạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 40,
+      "message_to_send": "thông tin",
+      "expected_reply": "Phòng Khám Đa Khoa Sysmed Phù Đổng không chỉ là nơi cung cấp dịch vụ khám chữa bệnh đa dạng mà còn là điểm đến tin cậy cho những ai mong muốn được chăm sóc sức khỏe toàn diện. Với hệ thống dịch vụ khám chuyên khoa, xét nghiệm, nội soi, tiêm chủng và khám sức khỏe tổng quát, cùng với đội ngũ chuyên môn cao và trang thiết bị hiện đại, phòng khám cam kết đồng hành cùng sức khỏe của bạn và gia đình, mang đến sự an tâm và hài lòng trong từng dịch vụ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 41,
+      "message_to_send": "dịch vụ",
+      "expected_reply": "Phòng Khám Đa Khoa Sysmed Phù Đổng không chỉ là nơi cung cấp dịch vụ khám chữa bệnh đa dạng mà còn là điểm đến tin cậy cho những ai mong muốn được chăm sóc sức khỏe toàn diện. Với hệ thống dịch vụ khám chuyên khoa, xét nghiệm, nội soi, tiêm chủng và khám sức khỏe tổng quát, cùng với đội ngũ chuyên môn cao và trang thiết bị hiện đại, phòng khám cam kết đồng hành cùng sức khỏe của bạn và gia đình, mang đến sự an tâm và hài lòng trong từng dịch vụ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 42,
+      "message_to_send": "chức năng",
+      "expected_reply": "Phòng Khám Đa Khoa Sysmed Phù Đổng không chỉ là nơi cung cấp dịch vụ khám chữa bệnh đa dạng mà còn là điểm đến tin cậy cho những ai mong muốn được chăm sóc sức khỏe toàn diện. Với hệ thống dịch vụ khám chuyên khoa, xét nghiệm, nội soi, tiêm chủng và khám sức khỏe tổng quát, cùng với đội ngũ chuyên môn cao và trang thiết bị hiện đại, phòng khám cam kết đồng hành cùng sức khỏe của bạn và gia đình, mang đến sự an tâm và hài lòng trong từng dịch vụ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 43,
+      "message_to_send": "khám sức khoẻ",
+      "expected_reply": "Dịch vụ khám sức khỏe tại phòng khám được thực hiện nhanh chóng, chính xác, thuận tiện cho khách hàng.\n1. KHÁM SỨC KHỎE ĐI HỌC/ XIN VIỆC\n    - Giá: 260.000 vnđ\n\n2. KHÁM SỨC KHỎE LÁI XE\n    - Hạng A1: 260.000 VNĐ\n    - Hạng B1, B, BE: 300.000 VNĐ\n    - Hạng C1, C, C1E, CE: 320.000 VNĐ \n    - Hạng D1, D2, D, D1E, D2E, DE: 320.000 VNĐ \n\n3. Hỗ trợ Chụp ảnh thẻ ngay tại Phòng khám. \n\nGiờ khám sức khỏe: 7h30 - 16h30 (Từ thứ 2 đến Chủ Nhật)\nTrong vòng 4h sau khi cấp giấy KSK lái xe sẽ được liên thông kết quả trên cổng Bộ Y Tế \nCác thông tin chi tiết xin liên hệ Hotline: 0329 340 511 & 0348 551 119 để được tư vấn cụ thể.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 44,
+      "message_to_send": "khám sức khỏe đi việc",
+      "expected_reply": "Dịch vụ khám sức khỏe tại phòng khám được thực hiện nhanh chóng, chính xác, thuận tiện cho khách hàng.\n1. KHÁM SỨC KHỎE ĐI HỌC/ XIN VIỆC\n    - Giá: 260.000 vnđ\n\n2. KHÁM SỨC KHỎE LÁI XE\n    - Hạng A1: 260.000 VNĐ\n    - Hạng B1, B, BE: 300.000 VNĐ\n    - Hạng C1, C, C1E, CE: 320.000 VNĐ \n    - Hạng D1, D2, D, D1E, D2E, DE: 320.000 VNĐ \n\n3. Hỗ trợ Chụp ảnh thẻ ngay tại Phòng khám. \n\nGiờ khám sức khỏe: 7h30 - 16h30 (Từ thứ 2 đến Chủ Nhật)\nTrong vòng 4h sau khi cấp giấy KSK lái xe sẽ được liên thông kết quả trên cổng Bộ Y Tế \nCác thông tin chi tiết xin liên hệ Hotline: 0329 340 511 & 0348 551 119 để được tư vấn cụ thể.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 45,
+      "message_to_send": "khám sức khỏe xin việc",
+      "expected_reply": "Dịch vụ khám sức khỏe tại phòng khám được thực hiện nhanh chóng, chính xác, thuận tiện cho khách hàng.\n1. KHÁM SỨC KHỎE ĐI HỌC/ XIN VIỆC\n    - Giá: 260.000 vnđ\n\n2. KHÁM SỨC KHỎE LÁI XE\n    - Hạng A1: 260.000 VNĐ\n    - Hạng B1, B, BE: 300.000 VNĐ\n    - Hạng C1, C, C1E, CE: 320.000 VNĐ \n    - Hạng D1, D2, D, D1E, D2E, DE: 320.000 VNĐ \n\n3. Hỗ trợ Chụp ảnh thẻ ngay tại Phòng khám. \n\nGiờ khám sức khỏe: 7h30 - 16h30 (Từ thứ 2 đến Chủ Nhật)\nTrong vòng 4h sau khi cấp giấy KSK lái xe sẽ được liên thông kết quả trên cổng Bộ Y Tế \nCác thông tin chi tiết xin liên hệ Hotline: 0329 340 511 & 0348 551 119 để được tư vấn cụ thể.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 46,
+      "message_to_send": "khám sức khỏe lái xe",
+      "expected_reply": "Dịch vụ khám sức khỏe tại phòng khám được thực hiện nhanh chóng, chính xác, thuận tiện cho khách hàng.\n1. KHÁM SỨC KHỎE ĐI HỌC/ XIN VIỆC\n    - Giá: 260.000 vnđ\n\n2. KHÁM SỨC KHỎE LÁI XE\n    - Hạng A1: 260.000 VNĐ\n    - Hạng B1, B, BE: 300.000 VNĐ\n    - Hạng C1, C, C1E, CE: 320.000 VNĐ \n    - Hạng D1, D2, D, D1E, D2E, DE: 320.000 VNĐ \n\n3. Hỗ trợ Chụp ảnh thẻ ngay tại Phòng khám. \n\nGiờ khám sức khỏe: 7h30 - 16h30 (Từ thứ 2 đến Chủ Nhật)\nTrong vòng 4h sau khi cấp giấy KSK lái xe sẽ được liên thông kết quả trên cổng Bộ Y Tế \nCác thông tin chi tiết xin liên hệ Hotline: 0329 340 511 & 0348 551 119 để được tư vấn cụ thể.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 47,
+      "message_to_send": "ứng tuyển",
+      "expected_reply": "Bạn vui lòng gọi tới hotline: 096 206 2261 để được trao đổi lịch phỏng vấn cụ thể."
+    },
+    {
+      "id": 48,
+      "message_to_send": "tuyển nhân sự",
+      "expected_reply": "Bạn vui lòng gọi tới hotline: 096 206 2261 để được trao đổi lịch phỏng vấn cụ thể."
+    },
+    {
+      "id": 49,
+      "message_to_send": "tuyển nhân viên",
+      "expected_reply": "Bạn vui lòng gọi tới hotline: 096 206 2261 để được trao đổi lịch phỏng vấn cụ thể."
+    },
+    {
+      "id": 50,
+      "message_to_send": "tuyển",
+      "expected_reply": "Bạn vui lòng gọi tới hotline: 096 206 2261 để được trao đổi lịch phỏng vấn cụ thể."
+    },
+    {
+      "id": 51,
+      "message_to_send": "tuyển dụng",
+      "expected_reply": "Bạn vui lòng gọi tới hotline: 096 206 2261 để được trao đổi lịch phỏng vấn cụ thể."
+    },
+    {
+      "id": 52,
+      "message_to_send": "cảm ơn",
+      "expected_reply": "Cảm ơn bạn đã lựa chọn Phòng khám đa khoa Sysmed Phù Đổng, nếu cần hỗ trợ thêm, vui lòng liên hệ theo thông tin phía bên dưới để có được sự hỗ trợ kịp thời.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 53,
+      "message_to_send": "giờ khám bhyt",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Để được áp dụng BHYT, Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc:  \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 54,
+      "message_to_send": "khám bhyt đến mấy giờ",
+      "expected_reply": "Chào bạn, Phòng khám hoạt động cả tuần (từ thứ 2 - Chủ nhật). Để được áp dụng BHYT, Bạn vui lòng đến trực tiếp Phòng khám trong Giờ làm việc:  \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 55,
+      "message_to_send": "bhyt giá",
+      "expected_reply": "Trường hợp này, bạn phải tới trực tiếp để lễ tân kiểm tra thẻ BHYT và tư vấn cho bạn về chi phí nhé"
+    },
+    {
+      "id": 56,
+      "message_to_send": "bhyt thì giá",
+      "expected_reply": "Trường hợp này, bạn phải tới trực tiếp để lễ tân kiểm tra thẻ BHYT và tư vấn cho bạn về chi phí nhé"
+    },
+    {
+      "id": 57,
+      "message_to_send": "bhyt chi phí",
+      "expected_reply": "Trường hợp này, bạn phải tới trực tiếp để lễ tân kiểm tra thẻ BHYT và tư vấn cho bạn về chi phí nhé"
+    },
+    {
+      "id": 58,
+      "message_to_send": "bhyt thì chi phí",
+      "expected_reply": "Trường hợp này, bạn phải tới trực tiếp để lễ tân kiểm tra thẻ BHYT và tư vấn cho bạn về chi phí nhé"
+    },
+    {
+      "id": 59,
+      "message_to_send": "BHYT",
+      "expected_reply": "Đúng rồi bạn, Phòng khám có áp dụng BHYT thông tuyến toàn quốc ạ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 60,
+      "message_to_send": "đăng ký BHYT",
+      "expected_reply": "Đúng rồi bạn, Phòng khám có áp dụng BHYT thông tuyến toàn quốc ạ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 61,
+      "message_to_send": "khám BHYT",
+      "expected_reply": "Đúng rồi bạn, Phòng khám có áp dụng BHYT thông tuyến toàn quốc ạ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 62,
+      "message_to_send": "áp dụng BHYT",
+      "expected_reply": "Đúng rồi bạn, Phòng khám có áp dụng BHYT thông tuyến toàn quốc ạ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 63,
+      "message_to_send": "xét nghiệm giun sán",
+      "expected_reply": "Trung tâm Xét Nghiệm Giun Sán/KST cung cấp dịch vụ xét nghiệm giun sán và ký sinh trùng với giá 390.000 VND/ Loại xét nghiệm. Quy trình xét nghiệm được thực hiện trên trang thiết bị hiện đại, đảm bảo kết quả chính xác và nhanh chóng, giúp quý khách có đánh giá chính xác về tình trạng sức khỏe. Để được tư vấn kỹ hơn, quý khách vui lòng đến trực tiếp Phòng khám Đa khoa Sysmed Phù Đổng, Địa chỉ: 02A Phù Đổng, Tp. Pleiku, Gia Lai.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 64,
+      "message_to_send": "ký sinh trùng",
+      "expected_reply": "Trung tâm Xét Nghiệm Giun Sán/KST cung cấp dịch vụ xét nghiệm giun sán và ký sinh trùng với giá 390.000 VND/ Loại xét nghiệm. Quy trình xét nghiệm được thực hiện trên trang thiết bị hiện đại, đảm bảo kết quả chính xác và nhanh chóng, giúp quý khách có đánh giá chính xác về tình trạng sức khỏe. Để được tư vấn kỹ hơn, quý khách vui lòng đến trực tiếp Phòng khám Đa khoa Sysmed Phù Đổng, Địa chỉ: 02A Phù Đổng, Tp. Pleiku, Gia Lai.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 65,
+      "message_to_send": "KST",
+      "expected_reply": "Trung tâm Xét Nghiệm Giun Sán/KST cung cấp dịch vụ xét nghiệm giun sán và ký sinh trùng với giá 390.000 VND/ Loại xét nghiệm. Quy trình xét nghiệm được thực hiện trên trang thiết bị hiện đại, đảm bảo kết quả chính xác và nhanh chóng, giúp quý khách có đánh giá chính xác về tình trạng sức khỏe. Để được tư vấn kỹ hơn, quý khách vui lòng đến trực tiếp Phòng khám Đa khoa Sysmed Phù Đổng, Địa chỉ: 02A Phù Đổng, Tp. Pleiku, Gia Lai.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 66,
+      "message_to_send": "xét nghiệm cần thiết",
+      "expected_reply": "Trong quá trình khám, bác sỹ sẽ đánh giá tình trạng sức khỏe và chỉ định các xét nghiệm cần thiết nhằm có kết quả chính xác nhất. Quý khách vui lòng đến trực tiếp để được khám và tư vấn toàn diện trong môi trường chuyên nghiệp và an toàn.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 67,
+      "message_to_send": "khám chỉ định",
+      "expected_reply": "Trong quá trình khám, bác sỹ sẽ đánh giá tình trạng sức khỏe và chỉ định các xét nghiệm cần thiết nhằm có kết quả chính xác nhất. Quý khách vui lòng đến trực tiếp để được khám và tư vấn toàn diện trong môi trường chuyên nghiệp và an toàn.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 68,
+      "message_to_send": "tầm soát ung thư nam",
+      "expected_reply": "Chương trình tầm soát ung thư nam bao gồm các xét nghiệm: đại tràng, phổi, dạ dày, tụy/ống mật, gan và tiền liệt tuyến. Mục tiêu là phát hiện sớm các dấu hiệu bất thường để can thiệp kịp thời. Quá trình khám được thực hiện theo tiêu chuẩn hiện đại với sự tư vấn chi tiết từ các chuyên gia.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 69,
+      "message_to_send": "phí khám phụ khoa",
+      "expected_reply": "Phí khám phụ khoa là 150.000 VND (chưa bao gồm các dịch vụ, xét nghiệm bổ sung hoặc thuốc nếu có). Trong quá trình khám, quý khách sẽ được bác sỹ giải thích cụ thể về các chi phí phát sinh. \n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 70,
+      "message_to_send": "khám phụ khoa",
+      "expected_reply": "Phí khám phụ khoa là 150.000 VND (chưa bao gồm các dịch vụ, xét nghiệm bổ sung hoặc thuốc nếu có). Trong quá trình khám, quý khách sẽ được bác sỹ giải thích cụ thể về các chi phí phát sinh. \n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 71,
+      "message_to_send": "nội soi & chuyên khoa Nội Soi",
+      "expected_reply": "Khoa Nội Soi cung cấp dịch vụ nội soi đường tiêu hóa (dạ dày, đại tràng…) bằng cả phương pháp có gây mê và không gây mê, với nhiều mức giá khác nhau.\nĐể hẹn Nội Soi Tiêu Hóa hoặc Tư vấn thêm về Nội soi, vui lòng gọi tới Hotline: 0348 551 119 hoặc tới trực tiếp Phòng khám Đa Khoa Sysmed Phù Đổng để được tư vấn nhanh nhất.\n Quy trình được thực hiện bởi Đại tá - Bác sỹ CKII: Nguyễn Ngọc Tuấn, cùng với trang thiết bị hiện đại, đảm bảo độ an toàn và chính xác trong chẩn đoán.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 72,
+      "message_to_send": "nội soi",
+      "expected_reply": "Khoa Nội Soi cung cấp dịch vụ nội soi đường tiêu hóa (dạ dày, đại tràng…) bằng cả phương pháp có gây mê và không gây mê, với nhiều mức giá khác nhau.\nĐể hẹn Nội Soi Tiêu Hóa hoặc Tư vấn thêm về Nội soi, vui lòng gọi tới Hotline: 0348 551 119 hoặc tới trực tiếp Phòng khám Đa Khoa Sysmed Phù Đổng để được tư vấn nhanh nhất.\n Quy trình được thực hiện bởi Đại tá - Bác sỹ CKII: Nguyễn Ngọc Tuấn, cùng với trang thiết bị hiện đại, đảm bảo độ an toàn và chính xác trong chẩn đoán.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 73,
+      "message_to_send": "chuyên khoa tiêu hoá",
+      "expected_reply": "Chương trình khám chuyên khoa tiêu hoá bao gồm nội soi tiêu hoá và tầm soát ung thư các cơ quan tiêu hoá như dạ dày, đại tràng, tụy/ống mật…\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 74,
+      "message_to_send": "nội soi tiêu hoá",
+      "expected_reply": "Chương trình khám chuyên khoa tiêu hoá bao gồm nội soi tiêu hoá và tầm soát ung thư các cơ quan tiêu hoá như dạ dày, đại tràng, tụy/ống mật…\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 75,
+      "message_to_send": "điều trị nội soi",
+      "expected_reply": "Chào bạn, sau khi nội soi có kết quả, bác sỹ sẽ điều trị bệnh lý cho bạn nhé.\nDịch vụ nội soi tại Phòng khám có áp dụng BHYT thông tuyến toàn quốc, không cần giấy chuyển viện\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 76,
+      "message_to_send": "chữa sau khi nội soi",
+      "expected_reply": "Chào bạn, sau khi nội soi có kết quả, bác sỹ sẽ điều trị bệnh lý cho bạn nhé.\nDịch vụ nội soi tại Phòng khám có áp dụng BHYT thông tuyến toàn quốc, không cần giấy chuyển viện\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 77,
+      "message_to_send": "giá nội soi",
+      "expected_reply": "Chào bạn, Nội soi có nhiều gói (có gây mê hoặc không gây mê), bạn hãy tới trực tiếp để được bác sỹ khám & tư vấn cụ thể cho bạn nhé.\nDịch vụ nội soi tại Phòng khám có áp dụng BHYT thông tuyến toàn quốc, không cần giấy chuyển viện\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 78,
+      "message_to_send": "chi phí nội soi",
+      "expected_reply": "Chào bạn, Nội soi có nhiều gói (có gây mê hoặc không gây mê), bạn hãy tới trực tiếp để được bác sỹ khám & tư vấn cụ thể cho bạn nhé.\nDịch vụ nội soi tại Phòng khám có áp dụng BHYT thông tuyến toàn quốc, không cần giấy chuyển viện\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 79,
+      "message_to_send": "nội soi bao nhiêu tiền",
+      "expected_reply": "Chào bạn, Nội soi có nhiều gói (có gây mê hoặc không gây mê), bạn hãy tới trực tiếp để được bác sỹ khám & tư vấn cụ thể cho bạn nhé.\nDịch vụ nội soi tại Phòng khám có áp dụng BHYT thông tuyến toàn quốc, không cần giấy chuyển viện\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 80,
+      "message_to_send": "nội soi cắt",
+      "expected_reply": "Trường hợp này, bạn phải tới trực tiếp để được bác sỹ khám & tư vấn cụ thể cho bạn nhé.\nDịch vụ nội soi tại Phòng khám có áp dụng BHYT thông tuyến toàn quốc, không cần giấy chuyển viện\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 81,
+      "message_to_send": "gói xét nghiệm tổng quát",
+      "expected_reply": "Gói xét nghiệm tổng quát bao gồm một loạt các xét nghiệm cần thiết để đánh giá toàn diện tình trạng sức khỏe. Vì gói xét nghiệm có nhiều chỉ định, quý khách vui lòng đến trực tiếp để được bác sỹ tư vấn và lựa chọn các xét nghiệm phù hợp với bản thân.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 82,
+      "message_to_send": "xét nghiệm tổng quát",
+      "expected_reply": "Gói xét nghiệm tổng quát bao gồm một loạt các xét nghiệm cần thiết để đánh giá toàn diện tình trạng sức khỏe. Vì gói xét nghiệm có nhiều chỉ định, quý khách vui lòng đến trực tiếp để được bác sỹ tư vấn và lựa chọn các xét nghiệm phù hợp với bản thân.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 83,
+      "message_to_send": "tầm soát ung thư nữ",
+      "expected_reply": "Chương trình tầm soát ung thư nữ bao gồm các xét nghiệm như đại tràng, phổi, dạ dày, tụy/ống mật, gan, buồng trứng và ung thư cổ tử cung. Mục tiêu phát hiện sớm các dấu hiệu bất thường để có biện pháp can thiệp kịp thời, với quy trình được thực hiện bởi các chuyên gia có kinh nghiệm. Để biết chi phí hoặc được tư vấn thêm về các gói tầm soát ung thư cho nữ, vui lòng lên trực tiếp Phòng khám Đa Khoa Sysmed Phù Đổng để được tư vấn cụ thể.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 84,
+      "message_to_send": "mắt",
+      "expected_reply": "Để được khám và tư vấn các bệnh lý về Mắt, bạn vui lòng liên hệ:\n\n🏥 BỆNH VIỆN MẮT QUỐC TẾ SÀI GÒN - GIA LAI (Bệnh viện chuyên khoa Mắt hàng đầu khu vực)\n📍 126 Đường Wừu - Tp. Pleiku - Gia Lai \n📞 0269 3656 666\n☎️ Hotline: 0946 603 168\n\n⏰Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n\n✳️Khám Bảo Hiểm Y Tế thông tuyến Toàn Quốc không cần giấy chuyển viện"
+    },
+    {
+      "id": 85,
+      "message_to_send": "khám mắt",
+      "expected_reply": "Để được khám và tư vấn các bệnh lý về Mắt, bạn vui lòng liên hệ:\n\n🏥 BỆNH VIỆN MẮT QUỐC TẾ SÀI GÒN - GIA LAI (Bệnh viện chuyên khoa Mắt hàng đầu khu vực)\n📍 126 Đường Wừu - Tp. Pleiku - Gia Lai \n📞 0269 3656 666\n☎️ Hotline: 0946 603 168\n\n⏰Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n\n✳️Khám Bảo Hiểm Y Tế thông tuyến Toàn Quốc không cần giấy chuyển viện"
+    },
+    {
+      "id": 86,
+      "message_to_send": "tư vấn khám mắt",
+      "expected_reply": "Để được khám và tư vấn các bệnh lý về Mắt, bạn vui lòng liên hệ:\n\n🏥 BỆNH VIỆN MẮT QUỐC TẾ SÀI GÒN - GIA LAI (Bệnh viện chuyên khoa Mắt hàng đầu khu vực)\n📍 126 Đường Wừu - Tp. Pleiku - Gia Lai \n📞 0269 3656 666\n☎️ Hotline: 0946 603 168\n\n⏰Giờ làm việc: (Từ thứ 2 - Chủ Nhật) \n    - Buổi sáng: 7h30 - 12h\n    - Buổi chiều: 13h -16h30\n\n✳️Khám Bảo Hiểm Y Tế thông tuyến Toàn Quốc không cần giấy chuyển viện"
+    },
+    {
+      "id": 87,
+      "message_to_send": "chi phí khám khoa thần kinh",
+      "expected_reply": "Chào bạn, trường hợp của bạn phải tới trực tiếp để được bác sỹ Khám & Tư vấn cụ thể khoa cho bạn nhé.\nPhòng khám có áp dụng BHYT toàn quốc, nên sẽ giảm chi phí khám chữa bệnh cho bạn nhé\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 88,
+      "message_to_send": "khám khoa thần kinh bao nhiêu tiền",
+      "expected_reply": "Chào bạn, trường hợp của bạn phải tới trực tiếp để được bác sỹ Khám & Tư vấn cụ thể khoa cho bạn nhé.\nPhòng khám có áp dụng BHYT toàn quốc, nên sẽ giảm chi phí khám chữa bệnh cho bạn nhé\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 89,
+      "message_to_send": "khám khoa thần kinh giá",
+      "expected_reply": "Chào bạn, trường hợp của bạn phải tới trực tiếp để được bác sỹ Khám & Tư vấn cụ thể khoa cho bạn nhé.\nPhòng khám có áp dụng BHYT toàn quốc, nên sẽ giảm chi phí khám chữa bệnh cho bạn nhé\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 90,
+      "message_to_send": "đau đầu",
+      "expected_reply": "Dạ có nhé bạn, bạn vui lòng lên trực tiếp để được bác sỹ Khám & Tư vấn cụ thể khoa cho bạn nhé.\nPhòng khám có áp dụng BHYT toàn quốc, nên sẽ giảm chi phí khám chữa bệnh cho bạn nhé"
+    },
+    {
+      "id": 91,
+      "message_to_send": "đau nửa đầu",
+      "expected_reply": "Dạ có nhé bạn, bạn vui lòng lên trực tiếp để được bác sỹ Khám & Tư vấn cụ thể khoa cho bạn nhé.\nPhòng khám có áp dụng BHYT toàn quốc, nên sẽ giảm chi phí khám chữa bệnh cho bạn nhé"
+    },
+    {
+      "id": 92,
+      "message_to_send": "khám",
+      "expected_reply": "Dạ có bạn nhé, bạn vui lòng tới trực tiếp Phòng khám để được bác sỹ khám và điều trị cho bạn nhé.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 93,
+      "message_to_send": "khám phụ khoa",
+      "expected_reply": "Dạ có bạn nhé, bạn vui lòng tới trực tiếp Phòng khám để được bác sỹ khám và điều trị cho bạn nhé.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 94,
+      "message_to_send": "chi phí cao",
+      "expected_reply": "Chào bạn, phòng khám có áp dụng BHYT toàn quốc, BHYT sẽ thanh toán một phần chi phí cho bạn nhé, bạn chỉ cần thanh toán phí chênh lệch đầu thẻ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 95,
+      "message_to_send": "xét nghiệm",
+      "expected_reply": "Có nhé bạn, bạn vui lòng đến trực tiếp Phòng khám để được khám & xét nghiệm.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 96,
+      "message_to_send": "xn",
+      "expected_reply": "Có nhé bạn, bạn vui lòng đến trực tiếp Phòng khám để được khám & xét nghiệm.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 97,
+      "message_to_send": "siêu âm điện tim",
+      "expected_reply": "Chào bạn, Phòng khám có Siêu âm tim/điện tim bạn nhé. Bạn vui lòng mang theo thẻ BHYT để được BHYT thanh toán 1 phần chi phí ạ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 98,
+      "message_to_send": "điện tim",
+      "expected_reply": "Chào bạn, Phòng khám có Siêu âm tim/điện tim bạn nhé. Bạn vui lòng mang theo thẻ BHYT để được BHYT thanh toán 1 phần chi phí ạ.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 99,
+      "message_to_send": "yhct",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng tới trực tiếp phòng khám để được bác sỹ YHCT khám và tư vấn.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 100,
+      "message_to_send": "y học cổ truyền",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng tới trực tiếp phòng khám để được bác sỹ YHCT khám và tư vấn.\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    },
+    {
+      "id": 101,
+      "message_to_send": "tiêm chủng",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 102,
+      "message_to_send": "vắc xin",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 103,
+      "message_to_send": "vaccine",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 104,
+      "message_to_send": "thủy đậu",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 105,
+      "message_to_send": "cúm mùa",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 106,
+      "message_to_send": "đậu mùa",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 107,
+      "message_to_send": "6in1",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 108,
+      "message_to_send": "6 in 1",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 109,
+      "message_to_send": "lao",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 110,
+      "message_to_send": "dại",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 111,
+      "message_to_send": "hpv",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 112,
+      "message_to_send": "vacxin",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 113,
+      "message_to_send": "cúm",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 114,
+      "message_to_send": "phế cầu",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 115,
+      "message_to_send": "bạch hầu",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 116,
+      "message_to_send": "uốn ván",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 117,
+      "message_to_send": "sởi",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 118,
+      "message_to_send": "quai bị",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 119,
+      "message_to_send": "rubenla",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 120,
+      "message_to_send": "bảng giá tiêm",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 121,
+      "message_to_send": "viêm gan",
+      "expected_reply": "Chào bạn, trường hợp của bạn, vui lòng gọi tới hotline: 0269 3828 357 & 0348 551 119 để được tư vấn nhanh nhất về:\n- Giá Vắc Xin\n- Số lượng Vắc Xin tại trung tâm.\n- Số lần tiêm vắc xin và các thông tin liên quan khác…"
+    },
+    {
+      "id": 122,
+      "message_to_send": "khoa nào",
+      "expected_reply": "Chào bạn, trường hợp của bạn phải tới trực tiếp để được bác sỹ Khám & Tư vấn cụ thể khoa cho bạn nhé.\nPhòng khám có áp dụng BHYT toàn quốc, nên sẽ giảm chi phí khám chữa bệnh cho bạn nhé\n---\n🏥 Phòng Khám Đa Khoa SYSMED PHÙ ĐỔNG\n📍 Địa chỉ: 02A Phù Đổng - Pleiku - Gia Lai\n📞 Hotline: 0329 340 511 & 0348 551 119"
+    }
+  ]

@@ -25,7 +25,7 @@ with open("test_data.json", "r", encoding="utf-8") as f:
 LOGIN_EMAIL_INPUT = "input[name='email']"
 LOGIN_PASSWORD_INPUT = "input[name='pass']"
 LOGIN_BUTTON = "button[name='login']"
-PAGE_MESSAGE_BUTTON = "div[aria-label='Message']"
+PAGE_MESSAGE_BUTTON = "div[aria-label='Message'][role='button']"
 CHAT_INPUT_AREA = "div[aria-label='Message'][contenteditable='true']"
 # This selector is crucial. It finds the last message in the chat that is NOT from the logged-in user.
 # It looks for a message group that does not contain an element indicating it's "your message".
@@ -98,13 +98,17 @@ def test_chatbot_responses(page_with_login: Page, test_case: dict):
     """
     page = page_with_login
 
-    # 1. Open the chat window
-    # We find the 'Message' button and click it to start a conversation.
-    page.locator(PAGE_MESSAGE_BUTTON).click()
+    # 1. Open the chat window (if it's not already open)
+    # First, check if the chat input is already visible
+    chat_input = page.locator(CHAT_INPUT_AREA)
+    
+    # If chat input is not visible, click the Message button to open it
+    if not chat_input.is_visible():
+        page.locator(PAGE_MESSAGE_BUTTON).click()
+        # Wait for the chat input to appear
+        chat_input.wait_for(state="visible")
 
     # 2. Send a message to the bot
-    # We find the chat input area, type our message, and press Enter.
-    chat_input = page.locator(CHAT_INPUT_AREA)
     chat_input.type(test_case["message_to_send"])
     chat_input.press("Enter")
 
