@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "message_to_send": "tôi bị đau mắt",
+    "expected_reply": "Trường hợp của bạn, vui lòng gọi tới Hotline: 0269 365 666 hoặc tới trực tiếp Bệnh viện Mắt Quốc Tế Sài Gòn - Gia Lai, địa chỉ: 126 Wừu, P. Iarking, Tp. Pleiku, Gia Lai để được khám và tư vấn cụ thể."
+  },
+  {
+    "id": 1,  
+    "message_to_send": "chào",
+    "expected_reply": "Chào bạn, bạn cần admin hỗ trợ gì ạ?"
+  },
+  {
+    "id": 2,
+    "message_to_send": "địa chỉ bệnh viện",
+    "expected_reply": "BỆNH VIỆN MẮT QUỐC TẾ SÀI GÒN - GIA LAI (Bệnh viện chuyên khoa Mắt hàng đầu khu vực) 📍 126 Đường Wừu - Tp. Pleiku - Gia Lai 📞 0269 3656 666 📲 Hotline: 0946 603 168"
+  },
+  {
+    "id": 3,
+    "message_to_send": "giờ làm việc",
+    "expected_reply": "Giờ làm việc: (Từ thứ 2 - Chủ Nhật) - Buổi sáng: 7h30 - 12h - Buổi chiều: 13h -16h30"
+  },
+  {
+    "id": 4,
+    "message_to_send": "Khám mắt định kỳ",
+    "expected_reply": "Dịch vụ khám mắt định kỳ giúp quý khách tiếp cận sớm việc đánh giá tình trạng mắt và phát hiện các dấu hiệu bất thường. Quy trình khám ban đầu bao gồm đo thị lực, kiểm tra các triệu chứng liên quan và tư vấn sơ bộ từ đội ngũ bác sĩ chuyên khoa, giúp đưa ra các khuyến nghị điều trị hoặc theo dõi phù hợp."
+  }
+] 

@@ -1,0 +1,14 @@
+# This is an example configuration file.
+#
+# 1. RENAME this file to `config.py`.
+# 2. FILL IN the values below with your information.
+#
+# The `config.py` file is listed in `.gitignore` to prevent your credentials
+# from being accidentally committed to a repository.
+
+# IMPORTANT: It is highly recommended to use a dedicated test account
+# for automation to avoid any issues with your personal account.
+
+FACEBOOK_EMAIL = "your-facebook-email@example.com"
+FACEBOOK_PASSWORD = "your-facebook-password"
+FACEBOOK_PAGE_URL = "https://www.facebook.com/your-page-name" 
